@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="This is a login page template based on Bootstrap 5">
     <title>Bootstrap 5 Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -14,17 +17,31 @@
 
 <body>
 
-<style>
 
+<style>
 body{
   background-image:url("img/214603.webp");
   width: 100%;
     height: 100%;
-  
+    font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
-  
 }
+.hola{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+    color: #1E90FF;
+    font-weight: bold;
+   
+    
+
+}
+
 </style>
+<br>
+<h1 class="hola">Veterinaria Marvin</h1>
+
 
     <section class="h-100">
         <div class="container h-100">
